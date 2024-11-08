@@ -1,0 +1,45 @@
+<<<<<<< Updated upstream
+=======
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>ZENBUDS</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="css/grid.css" />
+  <link href="css/main.css" rel="stylesheet" />
+  <!-- link to greensock main library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+</head>
+
+<body>
+  <section class="grid-con">
+    <div class="col-span-full">
+      <model-viewer src="model/earbuds_osas-opt.gltf" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.png" shadow-intensity="1">
+        <button class="Hotspot" slot="hotspot-1" data-position="-5.512612775864234m 5.280252160981247m 4.390043957265456m" data-normal="-0.9945432164615371m 0.028073030066948175m 0.10047733860528235m" data-visibility-attribute="visible">
+            <div class="HotspotAnnotation"></div>
+        </button><button class="Hotspot" slot="hotspot-2" data-position="-4.120392799288982m 6.156539930789999m 4.449714990041267m" data-normal="0.5349726578463482m -0.008900397318347643m 0.8448224892155688m" data-visibility-attribute="visible">
+            <div class="HotspotAnnotation"></div>
+        </button><button class="Hotspot" slot="hotspot-3" data-position="-5.044414293979919m 5.593546705821126m 3.8238388000587435m" data-normal="-0.12907623376620828m 0.04753467575854978m -0.9904947150173294m" data-visibility-attribute="visible">
+            <div class="HotspotAnnotation"></div>
+        </button>
+        <div class="progress-bar hide" slot="progress-bar">
+            <div class="update-bar"></div>
+        </div>
+        <button slot="ar-button" id="ar-button">
+            View in your space
+        </button>
+       
+      </model-viewer>
+    </div>
+  </section>
+
+  <!-- Loads <model-viewer> for browsers: -->
+  <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
+>>>>>>> Stashed changes
