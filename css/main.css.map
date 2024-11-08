@@ -1,1 +1,5 @@
+<<<<<<< Updated upstream
 {"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"main.css"}
+=======
+{"version":3,"sources":["../sass/components/_model.scss","main.css"],"names":[],"mappings":"AAAA;EACE,WAAA;EACA,iBAAA;EACA,aAAA;EACA,yBAAA;EACA,cAAA;ACCF;;ADEA;EACE,0CAAA;EACA,kBAAA;EACA,SAAA;EACA,WAAA;EACA,YAAA;ACCF;;ADEA;EAOE,UAAA;EACA,oBAAA;ACLF;;ADQA;EACE,kCAAA;EACA,YAAA;EACA,aAAA;EACA,WAAA;ACLF;;ADQA;EACE,kBAAA;EACA,gBAAA;EACA,kBAAA;EACA,yCAAA;EACA,yBAAA;EACA,cAAA;EACA,+CAAA;EACA,eAAA;EACA,gBAAA;EAEA,gBAAA;EACA,yBAAA;EACA,kBAAA;EACA,kBAAA;EACA,QAAA;EACA,uBAAA;EAAA,kBAAA;ACNF;;ADSA;EACE,WAAA;EACA,iBAAA;EACA,gBAAA;EACA,mBAAA;ACNF;;ADSA;EACE,eAAA;EACA,mBAAA;ACNF;;ADSA;EACE,YAAA;ACNF;;ADUA;EACE,YAAA;EACA,yBAAA;ACPF","file":"main.css"}
+>>>>>>> Stashed changes
