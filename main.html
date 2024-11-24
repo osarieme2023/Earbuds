@@ -1,5 +1,3 @@
-<<<<<<< Updated upstream
-=======
 <!DOCTYPE html>
 <html lang="en">
 
@@ -15,26 +13,175 @@
 </head>
 
 <body>
-  <section class="grid-con">
-    <div class="col-span-full">
-      <model-viewer src="model/earbuds_osas-opt.gltf" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.png" shadow-intensity="1">
-        <button class="Hotspot" slot="hotspot-1" data-position="-5.512612775864234m 5.280252160981247m 4.390043957265456m" data-normal="-0.9945432164615371m 0.028073030066948175m 0.10047733860528235m" data-visibility-attribute="visible">
-            <div class="HotspotAnnotation"></div>
-        </button><button class="Hotspot" slot="hotspot-2" data-position="-4.120392799288982m 6.156539930789999m 4.449714990041267m" data-normal="0.5349726578463482m -0.008900397318347643m 0.8448224892155688m" data-visibility-attribute="visible">
-            <div class="HotspotAnnotation"></div>
-        </button><button class="Hotspot" slot="hotspot-3" data-position="-5.044414293979919m 5.593546705821126m 3.8238388000587435m" data-normal="-0.12907623376620828m 0.04753467575854978m -0.9904947150173294m" data-visibility-attribute="visible">
-            <div class="HotspotAnnotation"></div>
-        </button>
-        <div class="progress-bar hide" slot="progress-bar">
-            <div class="update-bar"></div>
+    <header class="grid-con">
+        <div class="logo col-start-1 col-span-1 l-col-start-1 l-col-span-3">
+            <img src="image/logo.svg" alt="Logo for Zen Buds">
         </div>
-        <button slot="ar-button" id="ar-button">
-            View in your space
-        </button>
-       
-      </model-viewer>
-    </div>
-  </section>
+        <div class="navigation col-start-2 col-span-2 l-col-start-12 l-col-span-9">
+            <nav>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Store</a></li>
+                    <li><a href="">Buy</a></li>
+                    <li><a href="">Support</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="main-sec grid-con">
+            <div class="col-span-full hero">
+                <h1>
+                    Zen Buds
+                </h1>
+                <picture>
+                    <source
+                    srcset="image/hero-img-main-desc.png"
+                    media="(min-width: 474px)">
+                    <img src="image/hero-img-main.png" alt="Zen earbuds hero image">
+                </picture>
+                
+            </div>
+
+            <div class=" learn col-span-full">
+                <div class="text">
+                <p>
+                    Experience sound like never before.
+                </p>
+
+                <p>
+                    Starting at $99 <br> With noise cancellation $120
+                </p> 
+            </div>   
+                
+            <div class="col-span-full sec-btn">
+                <button>Learn more </button>
+                <button>Buy</button>
+            </div>
+
+            <div class="col-span-full">
+                <model-viewer
+                src="model/earbuds_osas-opt.gltf" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.png" shadow-intensity="1" disable zoom touch-action="pan-y" style="height: 700px; width: 100%;">
+                 <button class="Hotspot" slot="hotspot-1" data-position="-5.512612775864234m 5.280252160981247m 4.390043957265456m" data-normal="-0.9945432164615371m 0.028073030066948175m 0.10047733860528235m" data-visibility-attribute="visible">
+                     <div class="HotspotAnnotation"></div>
+                 </button><button class="Hotspot" slot="hotspot-2" data-position="-4.120392799288982m 6.156539930789999m 4.449714990041267m" data-normal="0.5349726578463482m -0.008900397318347643m 0.8448224892155688m" data-visibility-attribute="visible" >
+                     <div class="HotspotAnnotation"></div>
+                 </button><button class="Hotspot" slot="hotspot-3" data-position="-5.044414293979919m 5.593546705821126m 3.8238388000587435m" data-normal="-0.12907623376620828m 0.04753467575854978m -0.9904947150173294m" data-visibility-attribute="visible" >
+                     <div class="HotspotAnnotation"></div>
+                 </button>
+                 <div class="progress-bar hide" slot="progress-bar">
+                     <div class="update-bar"></div>
+                 </div>
+               </model-viewer>
+            </div>
+
+            <div class="wireless col-span-full">
+                <img src="image/earbuds_girl 1.png" alt="">
+                <h2>Wireless Connectivity</h2>
+                <p>The Amazfit Zenbuds are equipped
+                    with Bluetooth technology, allowing 
+                   for seamless wireless connectivity to 
+                   a variety of devices. This feature ensure
+                   s that users can easily connect their ear
+                   buds to smartphones, tablets, and other
+                   Bluetooth-enabled devices without the 
+                   hassle of tangled wires. The Zenbuds 
+                   provide a reliable connection,
+                   enhancing the overall user experience.
+                </p>
+            </div>
+
+            <div class="col-span-full xray-view" >
+                <div id="mobile-tablet-view">
+                  <img src="image/x-ray-img.jpg" alt="x-ray view of earbud" />
+                  <img src="image/normal-img.jpg" alt="regular view of earbud"/>
+                </div>
+                <div id="comparison-con">
+                  <div id="xray">
+                    <div id="divisor"></div>
+                  </div>
+                  <input type="range" min="0" max="100" value="50" id="slider" />
+                </div>
+            </div>
+
+            <div class="col-span-full comfort">
+                <img src="image/section-buds-4.png" alt="">
+                <h2>Comfort and Design</h2>
+                <p>Designed with comfort in mind, the 
+                    Amazfit Zenbuds feature an ergonomic 
+                    shape that fits snugly in the ear, making 
+                    them ideal for side sleepers. Weighing 
+                    only 1.78 grams per earbud, they are 
+                    incredibly lightweight and come with 
+                    soft silicone tips for a comfortable fit 
+                    throughout the night. Additionally, 
+                    their sleek design ensures that they 
+                    remain discreet and stylish, appealing 
+                    to users who value both functionality 
+                    and aesthetics.
+                </p>
+            </div>
+              
+        </section>
+
+        <section class="grid-con support">
+            <div class="col-span-full l-col-start-1 l-col-span-6">
+                <div class="delivery">
+                    <img src="image/delivery-svg.svg" alt="">
+                    <h3>Free delivery or pickup</h3>
+                    <p>Enjoy next day delivery from 
+                        the Zenbuds in most metro 
+                        areas, offering you the 
+                        convenience of free delivery or a 
+                        hassle-free pickup option. 
+                        Choose what 
+                        works best for you!</p>
+                </div>
+            </div>
+
+            <div class="col-span-full l-col-start-7 l-col-span-6">
+                <div class="help">
+                    <img src="image/chat-svg.svg" alt="">
+                    <h3>Get help buying</h3>
+                    <p>Have a question? 
+                        Call a Specialist or chat online.
+                        Call 1-800-557-2020</p>
+                </div>
+            </div>
+        </section>
+
+        <footer class="grid-con">
+            <div class="col-span-full links">
+                <h2>Order Questions</h2>
+                <a href="#">Refund & Shipping Policy</a>
+                <a href="#">Financing</a>
+                <a href="#">Contact Us</a>
+            </div>
+
+            <div class="divisor col-span-full"></div>
+            
+            <div class="col-span-full trust" >
+                <h2>Trust</h2>
+                <p>The Zenbuds Shop is a dedicated small-scale business 
+                    that has been providing high-quality audio solutions for 
+                    just over a year. Our flagship product, the Amazafit 
+                    Zenbuds, offers exceptionall sound quality and comfort for 
+                    music lovers on the go. All our products come with a full 
+                    warranty, ensuring you receive reliable support. Thank you 
+                    for choosing Zenbuds as we continue to grow and enhance 
+                    your listening experience!  
+                </p>
+            </div>
+
+            <div class="col-span-full email">
+                <p>Subscribe</p>
+                <input type="text" placeholder="Email address">
+                <button>SIGN UP</button>
+            </div>
+
+        </footer>
+    </main>
+
 
   <!-- Loads <model-viewer> for browsers: -->
   <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
@@ -42,4 +189,4 @@
 </body>
 
 </html>
->>>>>>> Stashed changes
+
