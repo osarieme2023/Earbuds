@@ -1,8 +1,8 @@
 (() => {
   console.log("IIFE Fired");
-
   const divisor = document.querySelector("#divisor");
   const slider = document.querySelector("#slider");
+
   const infoHotspot = [
     {
       slot: "hotspot-1",
@@ -66,4 +66,5 @@
   }
 
   slider.addEventListener("input", moveDivisor);
+
 })();
